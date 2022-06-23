@@ -27,19 +27,16 @@ body {
 }
 
 .title2 {
-    width: 90%;
+    width: 100%;
     background-color: hsl(248, 32%, 49%);
-    font-family: 'popins';
     color: white;
     font-size: 12px;
     background: hsl(248, 32%, 49%);
-    font-family: 'popins';
     border-radius: 10px;
 
 }
 
 .forms {
-    font-family: 'popins';
     /* width: 90%; */
     height: 90%;
     bottom: 5px;
