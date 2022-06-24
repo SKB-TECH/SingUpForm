@@ -65,6 +65,7 @@ input[type=text] {
     margin: 8px 10px;
     border-radius: 2px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .btn {
@@ -110,7 +111,7 @@ h3 {
 .imgs {
     position: relative;
     bottom: 70px;
-    left: 100px;
+    left: 170px;
     visibility: hidden;
 
 }
@@ -119,7 +120,7 @@ h3 {
     /* position: relative; */
     top: 5px;
     font-size: 14px;
-    left: 315px;
+    left: 390px;
     color: hsl(0, 100%, 74%);
     bottom: 35px;
     visibility: hidden;
@@ -127,7 +128,7 @@ h3 {
 }
 
 #snom {
-    bottom: 45px;
+    /* bottom: 45px; */
     /* left: 300px; */
     visibility: hidden;
 
