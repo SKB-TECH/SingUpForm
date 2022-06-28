@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 body {
-    background-color: hsl(0, 100%, 74%);
+    background:url('/images/bg-intro-desktop.png'), hsl(0, 100%, 74%);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -38,12 +38,11 @@ body {
 
 .forms {
     /* width: 90%; */
-    height: 90%;
     bottom: 5px;
     background-color: white;
     align-items: center;
     border-radius: 10px;
-    margin-top: 25px;
+    margin:0 auto;
 
 }
 #formulaire {
@@ -61,11 +60,10 @@ body {
 
 input[type=text] {
     width: 80%;
-    padding: 12px 20px;
+    padding: 10px 10px;
     margin: 8px 10px;
     border-radius: 2px;
     box-sizing: border-box;
-    border-radius: 10px;
 }
 
 .btn {
@@ -93,7 +91,7 @@ h3 {
 }
 
 .bas {
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     font-size: 12px;
 }
 
@@ -110,8 +108,10 @@ h3 {
 
 .imgs {
     position: relative;
-    bottom: 70px;
+    bottom: 65px;
     left: 170px;
+    width: 20px;
+    height: 20px;
     visibility: hidden;
 
 }
@@ -120,7 +120,7 @@ h3 {
     /* position: relative; */
     top: 5px;
     font-size: 14px;
-    left: 390px;
+    left: 360px;
     color: hsl(0, 100%, 74%);
     bottom: 35px;
     visibility: hidden;
@@ -186,10 +186,16 @@ h3 {
     }
     .title2 {
         width: 100%;
-        
-    
     }
     .imgs{
-        left: 1;
+        left: 80px;
+        bottom: 60px;
+        width:10px;
+        height:10px;
+
+    }
+
+    .Name{
+        font-size:10px;
     }
 }
